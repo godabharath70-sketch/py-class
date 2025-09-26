@@ -12,6 +12,7 @@ while True:
     print("4 -- Listsing students logic")
     print("5 -- Exist system")
     print("System is done")
+    print("My system is done")
 
     choices = input("Slect the options:")
     if choices == "1":
