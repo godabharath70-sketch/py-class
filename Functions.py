@@ -36,9 +36,35 @@ def fun_based(*ones):
     for i in ones:
                 num = num + i 
     print(f"the sum is:{num}")
-fun_based()
+fun_based(1)
+fun_based(2)
+fun_based(4)
+fun_based(6,2,2,2)
+   
+# * Arugmenats functions
+def data_store (*data):
+    total = 0
+    bigtotal = total + sum(data)
+    print(f"The total amount is:{bigtotal}")
+data_store(2,3,4,5,6)    
 
 
+
+# ** Agurmants functions
+
+def student_data(** managemnt):
+    print(managemnt)
+    total = 0
+    for j in managemnt:
+        bigcount = total + managemnt[j]
+        print(f"the total is the {len(managemnt)} total is this {bigcount} ")
+student_data(bharath = 76, raj = 87)
+
+    
+
+
+
+    
 
 
           
