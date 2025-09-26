@@ -11,6 +11,7 @@ while True:
     print("3 -- Delete student")
     print("4 -- Listsing students logic")
     print("5 -- Exist system")
+    print("System is done")
 
     choices = input("Slect the options:")
     if choices == "1":
@@ -99,7 +100,6 @@ while True:
                 print(f"My student skills:{skill_input}")
                 print(f"My Student total skills:{skills}")                
                 print("_______*****________")
-                print("Student listed succfully")
 
     elif choices == "5":
         print("Exist the system")
