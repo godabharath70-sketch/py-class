@@ -32,3 +32,5 @@ print(is_data(10))
 print(is_data(15))
 
 print((lambda a:a % 3 == 0 )(39))
+
+
