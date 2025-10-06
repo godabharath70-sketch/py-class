@@ -1,9 +1,13 @@
 Student_data = ("Edify the sdudent management data")
 Adimin_data = ("godabharath@123","9u38375364","Room 231")
-print(f"welcome to the {Student_data}")
-print(f"developed by the {Adimin_data}")
+
+def display_data():
+    print(f"welcome to the {Student_data}")
+    print(f"developed by the {Adimin_data}")
+    
 students = {}
 # Menue
+
 while True:
     print("Select the any options")
     print("1 -- Add student")
@@ -39,7 +43,7 @@ while True:
             My_skills = set()    
             while True:
                 skill_input = input("Enter the skills or type done:")
-                if skill_input == "done":
+                if skill_input  == "done":
                     break
                 My_skills.add(skill_input.title())
 
@@ -101,6 +105,7 @@ while True:
                 print(f"My student skills:{skill_input}")
                 print(f"My Student total skills:{skills}")                
                 print("_______*****________")
+                
 
     elif choices == "5":
         print("Exist the system")
